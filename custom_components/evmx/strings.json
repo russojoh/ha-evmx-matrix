@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "EVMX HDMI Matrix",
+        "description": "Enter the address of the matrix. The ASCII control port is 4001 on Vanco / Evolution EVMX units.",
+        "data": {
+          "host": "Host",
+          "port": "Control port",
+          "inputs": "Number of inputs",
+          "outputs": "Number of outputs"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the matrix on that address and port.",
+      "not_a_matrix": "Something answered, but not with a matrix version string."
+    },
+    "abort": {
+      "already_configured": "This matrix is already configured."
+    }
+  }
+}
